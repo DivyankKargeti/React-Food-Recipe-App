@@ -19,3 +19,15 @@
   background: linear-gradient(to top, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color:#f4f4f4;
 }
+
+/*@media (max-width: 800px) {
+  .jumbotron {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}*/
+
+@media (max-width: 500px) {
+  .jumbotron h1 {
+    font-size:20px;
+  }
+}
