@@ -11,7 +11,7 @@ function Recipes(props) {
                 recipes.map(recipe => (
                     <div className="col-md-12">
                         <div className="card py-2 text-center mt-5">
-                            <img src={recipe.recipe.image} className="img-fluid w-50 mx-auto rounded-circle" />
+                            <img src={recipe.recipe.image} className="img-fluid w-50 mx-auto rounded-circle" alt="recipe_img" />
                             <div className="card-body">
                                 <h5>{recipe.recipe.label}</h5>
                             </div>
